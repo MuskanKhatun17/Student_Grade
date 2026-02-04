@@ -29,3 +29,6 @@ def test_grade_fail():
 
 def test_newAverage():
     assert calculate_average([20,40,50,60,30]) == 40
+
+def tes_grade():
+    assert get_grade(90)=='Fail'
