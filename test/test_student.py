@@ -4,6 +4,7 @@ from src.student import calculate_average, get_grade
 def test_average_calculation():
     assert calculate_average([80, 80, 80, 80, 80]) == 80
     assert calculate_average([100, 50]) == 75
+   
 
 # --- Testing the Grade Logic ---
 def test_grade_a_plus():
@@ -25,3 +26,6 @@ def test_grade_c():
 def test_grade_fail():
     assert get_grade(49) == "Fail"
     assert get_grade(0) == "Fail"
+
+def test_newAverage():
+    assert calculate_average([20,40,50,60,30]) == 40
