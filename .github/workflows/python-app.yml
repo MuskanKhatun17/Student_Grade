@@ -23,7 +23,4 @@ jobs:
     - name: Run tests with pytest
       run: |
         export PYTHONPATH=$PYTHONPATH:$(pwd)
-<<<<<<< HEAD
         pytest test/test_student.py
-=======
->>>>>>> 8628677cada8fe28278b9c92e1990b5a28ed9d76
